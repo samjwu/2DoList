@@ -8,7 +8,13 @@ h1 {
     text-align: center;
 }
 
+#addcategory {
+    margin-left: 75%;
+    margin-bottom: 5px;
+}
+
 #tasks {
+    border: none;
     width: 50vw;
     height: 50vh;
     margin: 0px auto;
@@ -23,4 +29,8 @@ ol li {
 
 ol li:hover {
     background: #ccc;
+}
+
+#newcategory {
+    display: none;
 }
