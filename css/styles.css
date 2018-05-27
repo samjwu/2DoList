@@ -1,0 +1,26 @@
+#container {
+    width: 70vw;
+    height: 60vh;
+    margin: 10vh auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tasks {
+    width: 50vw;
+    height: 50vh;
+    margin: 0px auto;
+}
+
+ol li {
+    border: 1px dotted black;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+ol li:hover {
+    background: #ccc;
+}
