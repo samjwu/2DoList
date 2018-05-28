@@ -8,3 +8,6 @@ https://www.w3schools.com/tags/att_label_for.asp
 https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag
 https://jqueryui.com/dialog/
 https://www.tutorialspoint.com/jqueryui/jqueryui_dialog.htm
+https://www.w3schools.com/jquery/html_val.asp
+https://www.w3schools.com/jquery/html_appendto.asp
+http://api.jquery.com/appendto/

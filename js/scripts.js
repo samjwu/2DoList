@@ -10,8 +10,14 @@ $(document).ready(function(){
             resizeable: false,
             modal: true,
             buttons: {
-                "Add new category": function(){},
-                "Cancel": function(){}
+                "Add new category": function(){
+                    var categoryname = $("#category").val();
+                    $("<li><a href='#'" + categoryname + ">" + categoryname + "</a></li>").appendTo("#categories");
+                },
+                "Cancel": function(){
+                    $("#category").val("");
+                    $(this).dialog("close");
+                }
             }
         });
     });
