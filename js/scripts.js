@@ -13,6 +13,9 @@ $(document).ready(function(){
                 "Add new category": function(){
                     var categoryname = $("#category").val();
                     $("<li><a href='#'" + categoryname + ">" + categoryname + "</a></li>").appendTo("#categories");
+                    $("#category").val("");
+                    $(this).dialog("close");
+                    $("#tasks").tabs("refresh");
                 },
                 "Cancel": function(){
                     $("#category").val("");
