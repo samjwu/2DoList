@@ -12,3 +12,4 @@ https://www.w3schools.com/jquery/html_val.asp
 https://www.w3schools.com/jquery/html_appendto.asp
 http://api.jquery.com/appendto/
 https://stackoverflow.com/questions/3427187/jquery-ui-reload-selected-tab
+https://stackoverflow.com/questions/1864219/need-currently-selected-tab-id-for-jquery-tabs
