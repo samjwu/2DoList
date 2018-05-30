@@ -1,3 +1,7 @@
+body {
+    background: #000;
+}
+
 #container {
     width: 70vw;
     height: 60vh;
@@ -6,11 +10,7 @@
 
 h1 {
     text-align: center;
-}
-
-#addcategory {
-    margin-left: 75%;
-    margin-bottom: 5px;
+    color: #fff;
 }
 
 #alltasks {
@@ -18,13 +18,42 @@ h1 {
     width: 50vw;
     height: 50vh;
     margin: 0px auto;
+    background: #000;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#addtask {
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#addcategory {
+    margin-bottom: 5px;
+    background-color: dodgerblue;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
 }
 
 ol li {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     cursor: pointer;
     padding: 5px;
     margin-bottom: 5px;
+    color: #fff;
+    background: #000;
 }
 
 ol li:hover {

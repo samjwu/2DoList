@@ -12,7 +12,7 @@ $(document).ready(function() {
             buttons: {
                 "Add": function() {
                     var categoryname = $("#category").val();
-                    $("<li><a href='#'" + categoryname + ">" + categoryname + "</a></li>").appendTo("#categories"); //new category
+                    $("<li><a href='#" + categoryname + "'>" + categoryname + "</a></li>").appendTo("#categories"); //new category
                     $("<ol id='" + categoryname + "'></ol>").appendTo("#alltasks"); //items for category
                     $("#alltasks").tabs("refresh"); //for tab formatting
                     var numtabs = $("#alltasks .ui-tabs-nav li").length;

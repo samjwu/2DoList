@@ -1,3 +1,9 @@
+styles.css
+https://stackoverflow.com/questions/7560832/how-to-center-a-button-within-a-div
+https://api.jqueryui.com/theming/css-framework/
+https://jqueryui.com/demos/
+
+
 scripts.js
 https://jqueryui.com/tabs/
 https://www.tutorialspoint.com/jqueryui/jqueryui_tabs.htm
