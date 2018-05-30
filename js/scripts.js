@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#alltasks").tabs();
-    $("ul").sortable({ axis: "x", containment: "#tasks" });
-    $("ol").sortable({ axis: "y", containment: "#tasks" });
+    $("ul").sortable({ axis: "x", containment: "#alltasks" });
+    $("ol").sortable({ axis: "y", containment: "#alltasks" });
     
     $("#addcategory").button()
     .click(function() {
