@@ -50,4 +50,8 @@ $(document).ready(function() {
             }
         });
     });
+
+    $(":checkbox").on('click', function(){
+        $(this).parent().toggleClass("done");
+    });
 });

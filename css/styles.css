@@ -24,8 +24,6 @@ h1 {
 .col {
     float: left;
     width: 50%;
-    display: flex;
-    justify-content: center;
 }
 
 #addtask {
@@ -38,8 +36,9 @@ h1 {
 }
 
 #addcategory {
+    float: right;
     margin-bottom: 5px;
-    background-color: dodgerblue;
+    background-color: #007fff;
     border: none;
     color: #fff;
     padding: 5px;
@@ -47,17 +46,26 @@ h1 {
     font-size: 1rem;
 }
 
+#categories {
+    background: #000;
+    border: none;
+}
+
 ol li {
     /* border: 1px dotted black; */
     cursor: pointer;
     padding: 5px;
     margin-bottom: 5px;
-    color: #fff;
+    color: red;
     background: #000;
 }
 
 ol li:hover {
     background: #ccc;
+}
+
+.done {
+    color: #007fff;
 }
 
 #newcategory {
